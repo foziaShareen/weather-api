@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.search-bar {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    width: 90%;
+    max-width: 500px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+.location {
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 5px;
+    width: 100%;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #0074D9;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.weekly-forecast {
+    display: flex;
+    flex-wrap: wrap; /* This makes cards wrap to a new line when the container is filled */
+    justify-content: space-between; /* Optional: distribute space between cards */
+    width: 90%;
+    max-width: 500px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.day-card {
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    text-align: center;
+    margin-right: 10px;
+    margin-bottom: 10px; /* Add margin to separate cards */
+    width: 150px;
+}
+
+.day-card h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
