@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    const API_KEY = '4a62c9d7fe349ddd1b7f8f0c49db8079'; // Replace with your OpenWeatherMap API Key
+    const API_KEY = ''; // Replace with your OpenWeatherMap API Key
 
     $('#get-weather').click(function () {
         const city = $('#city').val();
